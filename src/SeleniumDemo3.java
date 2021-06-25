@@ -15,7 +15,6 @@ public class SeleniumDemo3 {
 
         Thread.sleep(4000);
 
-
        // driver.close();
 
         driver.quit();
