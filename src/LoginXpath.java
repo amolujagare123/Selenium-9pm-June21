@@ -22,6 +22,24 @@ public class LoginXpath {
 
         WebElement btnLogin = driver.findElement(By.xpath("//input[@value='LOG IN']"));
         btnLogin.click();
+
+        WebElement lnkAddCustomer = driver.findElement(By.xpath("//a[text()='Add Customer']"));
+       // WebElement lnkAddCustomer = driver.findElement(By.xpath("//a[@href='add_customer.php']"));
+        lnkAddCustomer.click();
+
+        WebElement txtName = driver.findElement(By.xpath("//input[@id='name']"));
+        txtName.sendKeys("mithilesh");
+
+        WebElement txtAddress = driver.findElement(By.xpath("//textarea[@name='address']"));
+        txtAddress.sendKeys("xyz,pune");
+
+        WebElement txtContact1 = driver.findElement(By.xpath("//input[@name='contact1']"));
+        txtContact1.sendKeys("7788");
+
+        WebElement txtContact2 = driver.findElement(By.xpath("//input[@name='contact2']"));
+        txtContact2.sendKeys("17788");
+
+        driver.findElement(By.xpath("//input[@type='submit']")).click();
     }
 
     }
