@@ -30,7 +30,6 @@ public class LoginDemoJunit2 {
     @Test
     public void Test1() throws InterruptedException {
 
-
         driver.get("http://stock.scriptinglogic.net/");
 
         WebElement txtUser = driver.findElement(By.cssSelector("#login-username"));

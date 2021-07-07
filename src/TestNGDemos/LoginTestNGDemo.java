@@ -30,7 +30,7 @@ public class LoginTestNGDemo {
         driver.close();
     }
 
-    @Test
+    @Test (enabled = false)
     public void myLoginTest2() throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
