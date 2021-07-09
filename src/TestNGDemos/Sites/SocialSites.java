@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class SocialSites extends Initialize {
 
-    @Test (priority = 4)
+    @Test
     public void facebook()
     {
         driver.get("http://facebook.com");
@@ -28,7 +28,7 @@ public class SocialSites extends Initialize {
         driver.get("http://instagram.com");
     }
 
-    @Test (priority = 2)
+    @Test (priority = 1)
     public void linkedIn()
     {
         driver.get("http://linkedIn.com");

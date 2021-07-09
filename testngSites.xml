@@ -4,7 +4,6 @@
         <classes>
             <class name = "TestNGDemos.Sites.forumsSites"/>
             <class name = "TestNGDemos.Sites.JobSites"/>
-
         </classes>
     </test>
 

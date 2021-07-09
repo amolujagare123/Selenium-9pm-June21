@@ -1,9 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="project name">
 
     <test name = "module 1">
         <classes>
             <class name = "TestNGDemos.Demos.ClassOne"/>
-            <class name = "TestNGDemos.Demos.ClassTwo"/>
+
+            <class name = "TestNGDemos.Demos.ClassTwo">
+             <methods>
+                 <include name="classTwoTest2"/>
+                 <include name="classTwoTest3"/>
+             </methods>
+            </class>
+
+
         </classes>
     </test>
 
