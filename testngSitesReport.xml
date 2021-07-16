@@ -1,6 +1,6 @@
 <suite name="All sites">
 
-    <!--<listeners>
+   <!--<listeners>
         <listener class-name="org.testng.reporters.EmailableReporter2" />
     </listeners>-->
     <listeners>
